@@ -1,0 +1,39 @@
+.resume{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "name name"
+    "about work"
+    "education work"
+    "education skills"
+    ;
+
+    /*for development purposes*/
+    width : 210mm;
+    height: 297mm;
+    
+    margin: auto;
+    box-shadow: 0 0 0.5cm black;
+}
+.name {
+    grid-area: name;
+}
+
+.about {
+    grid-area: about;
+}
+
+.work {
+    grid-area: work;
+}
+.education {
+    grid-area: education;
+}
+.skills {
+    grid-area: skills;
+}
+
+h1{
+    font-size:48pt;
+}
